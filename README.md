@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <diV align=center>
-    <h1> Clinic </h1>
+    <h1> Morse code Decoder </h1>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -12,7 +12,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -21,7 +20,6 @@
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -30,19 +28,19 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Vet Clinic <a name="about-project"></a>
+# 📖 Morse code Decoder <a name="about-project"></a>
 
 
-**Clinic** is a postgres database project that defines the data structure of a vet clinic
+Morse code Decoder is a simple project written in Ruby that decodes the Morse code
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-<summary>Database</summary>
+<summary>Tech Stack</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
   </ul>
 </details>
 
@@ -50,9 +48,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **SQL Schema to Create Database and Table**
-- **SQL Schema to insert new record**
-- **SQL Schema to query from the Database**
+- **Decode Morsecode character**
+- **Decode Morsecode word**
+- **Decode Morsecode message**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -60,27 +58,20 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-
 To get a local copy up and running, follow these steps.
-
-> Clone this repository   'https://github.com/Dorcas126/clinic-database/'
-
-> Open the repository on you local machine.
-
-> Run the SQL Script to create the database.
-
-> Run the SQL Script to inser the records.
-
-> Run the SQL Query script to retrive data. 
 
 ### Prerequisites
 
 In order to run this project you need:
 
-- Install <a href="https://www.postgresql.org/">PostgreSQL</a> in your local machine
+- Interactive Ruby
+- Code editor.
 
-- make sure to server is running on psql.
+### Setup
 
+Clone this repository to your desired folder:
+> cd my-folder
+  gh repo clone https://github.com/Log-benjamin/Decode-Morse-message/tree/decode-message
 
 <!-- AUTHORS -->
 
@@ -94,21 +85,9 @@ In order to run this project you need:
 
 👤 **binyam tegene**
 
-> - GitHub: [@github](https://github.com/Log-benjamin?tab=repositories)
-> - Twitter: [@twitte](https://twitter.com/@binyam_tegene)
-> - LinkedIn: [LinkedIn](https://www.linkedin.com/in/binyam-tegene-4b77ab265)
-
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] **Add Owner Table**
-- [ ] **Perform Join Queries**
+- GitHub: [@github](https://github.com/Log-benjamin?tab=repositories)
+- Twitter: [@twitte](https://twitter.com/@binyam_tegene)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/binyam-tegene-4b77ab265)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
