@@ -5,17 +5,26 @@ MORSE_DICT = {
   '.--.' => 'P', '--.-' => 'Q', '.-.' => 'R', '...' => 'S', '-' => 'T',
   '..-' => 'U', '...-' => 'V', '.--' => 'W', '-..-' => 'X', '-.--' => 'Y',
   '--..' => 'Z'
-}
+}.freez
 
 def decode_char(char)
   MORSE_DICT[char]
 end
 
-def decode_word(morseCode)
-    temp_store = morseCode.split
-    word_decode = ""
-    temp_store.each do |elem|
-        word_decode += MORSE_DICT[elem]
-    end
-    word_decode
+def decode_word(morsecode)
+  temp_store = morsecode.split
+  word_decode = ''
+  temp_store.each do |elem|
+    word_decode += MORSE_DICT[elem]
+  end
+  word_decode
+end
+
+def decode_message(message)
+  @ben = ""
+  @words = message.split('   ')
+  @words.each do |word|
+      @ben += decode_word(word)
+  end
+  @ben 
 end
