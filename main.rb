@@ -19,14 +19,3 @@ def decode_word(morseCode)
     end
     word_decode
 end
-
-# def decode_message(message)
-#     ben = ""
-#     @words = message.split('   ')
-#     @words.each do |word|
-#         ben += decode_word(word)
-#     end
-#     ben 
-# end
-
-# decode_message("-- -.--   -. .- -- .")
