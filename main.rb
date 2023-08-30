@@ -5,7 +5,7 @@ MORSE_DICT = {
   '.--.' => 'P', '--.-' => 'Q', '.-.' => 'R', '...' => 'S', '-' => 'T',
   '..-' => 'U', '...-' => 'V', '.--' => 'W', '-..-' => 'X', '-.--' => 'Y',
   '--..' => 'Z'
-}.freez
+}.freeze
 
 def decode_char(char)
   MORSE_DICT[char]
@@ -17,14 +17,17 @@ def decode_word(morsecode)
   temp_store.each do |elem|
     word_decode += MORSE_DICT[elem]
   end
-  word_decode
+  print("#{word_decode} ")
 end
 
 def decode_message(message)
-  @ben = ""
-  @words = message.split('   ')
-  @words.each do |word|
-      @ben += decode_word(word)
+  words = message.split('   ')
+  words.each do |word|
+    decode_word(word)
   end
-  @ben 
+  print("\n")
 end
+
+# decode_message("-- -.--   -. .- -- .")
+
+# decode_message('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
