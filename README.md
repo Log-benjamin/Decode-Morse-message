@@ -20,6 +20,7 @@
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -65,6 +66,7 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 
 - Interactive Ruby
+
 - Code editor.
 
 ### Setup
@@ -88,6 +90,15 @@ Clone this repository to your desired folder:
 - GitHub: [@github](https://github.com/Log-benjamin?tab=repositories)
 - Twitter: [@twitte](https://twitter.com/@binyam_tegene)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/binyam-tegene-4b77ab265)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+Features that will be added 
+- [ ] **Enhance the functionality**
+- [ ] **Add methods to Decode numbers in Morse Code**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
